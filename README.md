@@ -5,6 +5,8 @@ Final Exam of Artificial Intelligence
 # Question 1
 You have a partially observable version of the 8-puzzle problem from class. You cannot see two tiles. Here is the observation:
 
+![Puzzle](images/8_puzzle_partially_observable-2.PNG)
+
 Instead of fully observable states, you must work with belief states (the set of all possible states given the current observation).
 
 Draw the belief state for the board shown above. What states does it contain?
@@ -60,6 +62,8 @@ C)
 
 # Question 2
 You wonder how studying hard for AI affects your chances of getting a great job in the field of AI after you graduate. Here is a Bayesian network that models the problem with 5 random variables.
+
+![Puzzle](images/BN_Grade.PNG)
 
 How do you interpret the probability P(S) = 0.80? What does it mean?
 Are the variables S and E independent?  Are the variables conditionally independent? Explain why or why not.
@@ -135,6 +139,8 @@ P(S = False, E = True, L = False, G = True, J = True)
 # Question 3
 You have the following game tree for a simple 2-ply war game: your player has two options (go left or right), and then your opponent decides on a response. Note that hiding is not an option for the opponent when you choose to go left. States are numbered in the diagram. The game is zero-sum, where you want to maximize your score while the opponent seeks to minimize it.
 
+![Puzzle](images/simple_2_pl_game-1.PNG)
+
 Would a rational opponent ever choose to surrender? Why? Why not?
 You want to solve this problem using Minimax search. What are the three minimax values (MV1, MV2, and MV3)?
 What are the played actions if both players play optimally?
@@ -184,7 +190,7 @@ Since the expected value for going left is greater than going right, I would go 
 # Question 4
 You work on Tesla's self-driving car team and are tasked with training a neural network with 0-1 loss to decide if a detected traffic sign is a stop sign. You have collected video footage of traffic signs from cars and labeled 150,000 videos as "stop signs" or "not a stop sign." Here are some detected signs from the videos.
 
-image.png
+![Puzzle](images/image-de32aafd-a1b3-407e-b482-47bdeba888d4.PNG)
 
  
 
@@ -206,7 +212,7 @@ c) Based on results a and b having the same accuracy of 90%, they are the same, 
 
 d) A rational agent would need agree with this because misclassification of the two groups don't have the same consequences. Misclassifying a stop sign as a non-stop sign could be more dangerous for a vehicle if it doesn't stop, but misclassifying a non-stop sign doesn't have a critical consequence as the vehicle would just stop unnecessarily. The rational agent would then consider the misclassification differently by assigning a different loss value to each mistake.
 
-# Quesiton 5
+# Question 5
 Describe what algorithm worked best for your Connect-4 assignment. Why do you think it performs better than the other algorithms?
 
 ## Answer 5
